@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.goskripsi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\noobgamers\goskripsi\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\noobgamers\goskripsi\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.54.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.54.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:react-native-firebase_database] C:\Users\noobgamers\goskripsi\node_modules\@react-native-firebase\database\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+15-->[:react-native-firebase_database] C:\Users\noobgamers\goskripsi\node_modules\@react-native-firebase\database\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-firebase_database] C:\Users\noobgamers\goskripsi\node_modules\@react-native-firebase\database\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+16-->[:react-native-firebase_database] C:\Users\noobgamers\goskripsi\node_modules\@react-native-firebase\database\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->[:react-native-maps] C:\Users\noobgamers\goskripsi\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+17-->[:react-native-maps] C:\Users\noobgamers\goskripsi\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:7:5-31:19
+26        android:name="com.goskripsi.MainApplication"
+26-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:9:7-38
+27        android:allowBackup="false"
+27-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:13:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:11:7-41
+31        android:label="@string/app_name"
+31-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:10:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:12:7-52
+33        android:theme="@style/AppTheme"
+33-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:14:7-38
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\noobgamers\goskripsi\android\app\src\debug\AndroidManifest.xml:7:18-53
+35        <meta-data
+35-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:15:7-17:66
+36            android:name="com.google.android.geo.API_KEY"
+36-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:16:9-54
+37            android:value="AIzaSyBs_pqCD_KYAjliz2GczEwQQVYO5IUX1oI" />
+37-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:17:9-64
+38
+39        <activity
+39-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:18:7-28:18
+40            android:name="com.goskripsi.MainActivity"
+40-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:19:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:21:9-86
+42            android:label="@string/app_name"
+42-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:20:9-41
+43            android:launchMode="singleTask"
+43-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:22:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:23:9-51
+45            <intent-filter>
+45-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:24:9-27:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:25:13-65
+46-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:25:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:26:13-73
+48-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:26:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+51-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:29:7-84
+51-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:29:17-81
+52
+53        <uses-library
+53-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:30:5-83
+54            android:name="org.apache.http.legacy"
+54-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:30:19-56
+55            android:required="false" />
+55-->C:\Users\noobgamers\goskripsi\android\app\src\main\AndroidManifest.xml:30:57-81
+56
+57        <activity
+57-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+58            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+58-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+59            android:excludeFromRecents="true"
+59-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+62        <!--
+63            Service handling Google Sign-In user revocation. For apps that do not integrate with
+64            Google Sign-In, this service will never be started.
+65        -->
+66        <service
+66-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+67            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+67-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+68            android:exported="true"
+68-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+69            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+69-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+70            android:visibleToInstantApps="true" />
+70-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\6a300d6b98ca8de8170697ae562770a8\play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+71        <service
+71-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:29:9-35:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:30:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:31:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+76                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+76-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-database:19.5.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8fd5c8eb9f1f227987e05fd880ecf082\firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+78            <meta-data
+78-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\ed736655ec4206fb608d19631b5b2bc7\play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
+79                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+79-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\ed736655ec4206fb608d19631b5b2bc7\play-services-measurement-api-17.6.0\AndroidManifest.xml:31:17-139
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\ed736655ec4206fb608d19631b5b2bc7\play-services-measurement-api-17.6.0\AndroidManifest.xml:32:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\9eb2499f9148ed63f4298063a5ece213\firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+82                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+82-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\9eb2499f9148ed63f4298063a5ece213\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\9eb2499f9148ed63f4298063a5ece213\firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+84        </service>
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\0b6249500b8009a9eb57f214c32dfafc\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\0b6249500b8009a9eb57f214c32dfafc\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\0b6249500b8009a9eb57f214c32dfafc\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\0b6249500b8009a9eb57f214c32dfafc\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+93            android:authorities="com.goskripsi.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+95            android:exported="false"
+95-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+96            android:initOrder="100" />
+96-->[com.google.firebase:firebase-common:19.3.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\8dc0cf9218cbd70ef6d22a99469acb73\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+97
+98        <receiver
+98-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
+99            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+99-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:30:13-85
+100            android:enabled="true"
+100-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:31:13-35
+101            android:exported="false" >
+101-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:32:13-37
+102        </receiver>
+103
+104        <service
+104-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:35:9-38:40
+105            android:name="com.google.android.gms.measurement.AppMeasurementService"
+105-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:36:13-84
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:37:13-35
+107            android:exported="false" />
+107-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:38:13-37
+108        <service
+108-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:39:9-43:72
+109            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+109-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:40:13-87
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:41:13-35
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:42:13-37
+112            android:permission="android.permission.BIND_JOB_SERVICE" />
+112-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\c3189972386a9e47b2eb8a66bb3e96b6\play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\d740a51cfe94e551aeb23f03da5988db\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\d740a51cfe94e551aeb23f03da5988db\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\noobgamers\.gradle\caches\transforms-2\files-2.1\d740a51cfe94e551aeb23f03da5988db\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+117    </application>
+118
+119</manifest>
